@@ -48,11 +48,6 @@ Financial and customer-retention products built with **React, Node.js, MongoDB, 
 * Cloud Computing — Infosys
 * Python for Data Science — IBM / Cognitive Class
 
-## 🌍 Location
-
-India
-Open to relocation: **Germany / EU**
-
 ## 📫 Contact
 
 Email: [nehamangla500@gmail.com](mailto:nehamangla500@gmail.com)
