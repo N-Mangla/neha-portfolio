@@ -121,7 +121,7 @@ export default function App() {
               <Sparkles className="h-5 w-5" />
             </div>
             <div>
-              <p className="text-sm font-semibold tracking-wide">Neha Mangla</p>
+              <p className="text-sm font-semibold tracking-wide text-slate-900">Neha Mangla</p>
               <p className="text-xs text-slate-500">Senior Full Stack Engineer</p>
             </div>
           </div>
@@ -249,7 +249,9 @@ export default function App() {
           >
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.2em] text-blue-600">About</p>
-              <h2 className="mt-3 text-3xl font-bold tracking-tight sm:text-4xl">Engineering with clarity, performance, and polish.</h2>
+              <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl">
+                Engineering with clarity, performance, and polish.
+              </h2>
               <p className="mt-6 max-w-3xl text-lg leading-8 text-slate-600">
                 I am a Senior Full Stack Engineer focused on React-driven enterprise applications, with 7+ years of experience building scalable SaaS and enterprise platforms. I specialize in React, TypeScript, and Node.js, with strong experience in building data-intensive interfaces, scheduling systems, and performance-optimized web applications.
               </p>
