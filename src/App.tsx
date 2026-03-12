@@ -59,7 +59,7 @@ function Badge({ className = "", children }: { className?: string; children: Rea
   return (
     <span
       className={cn(
-        "inline-flex items-center rounded-full border border-slate-200 bg-slate-100 text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200",
+        "inline-flex items-center rounded-full border border-slate-200 bg-slate-100 text-slate-700",
         className
       )}
     >
@@ -79,8 +79,8 @@ function Button({
   const base = "inline-flex items-center justify-center font-medium transition focus:outline-none focus:ring-2 focus:ring-blue-500/40";
   const variants = {
     default: "bg-blue-600 text-white hover:bg-blue-700",
-    outline: "border border-slate-300 bg-white text-slate-900 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-white dark:hover:bg-slate-800",
-    ghost: "bg-transparent text-slate-900 hover:bg-slate-100 dark:text-white dark:hover:bg-slate-800",
+    outline: "border border-slate-300 bg-white text-slate-900 hover:bg-slate-50",
+    ghost: "bg-transparent text-slate-900 hover:bg-slate-100",
     secondary: "bg-white text-slate-900 hover:bg-slate-100",
   } as const;
   const sizes = {
@@ -107,7 +107,7 @@ export default function App() {
   const [activeProject, setActiveProject] = useState<ProjectTitle>(PROJECTS[0].title);
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white via-slate-50 to-white text-slate-900 dark:bg-slate-950 dark:text-slate-100">
+    <div className="min-h-screen bg-gradient-to-b from-white via-slate-50 to-white text-slate-900">
       <div className="fixed inset-0 -z-10 overflow-hidden">
         <div className="absolute left-1/2 top-0 h-[28rem] w-[28rem] -translate-x-1/2 rounded-full bg-blue-500/10 blur-3xl" />
         <div className="absolute right-0 top-1/3 h-[20rem] w-[20rem] rounded-full bg-sky-400/10 blur-3xl" />
